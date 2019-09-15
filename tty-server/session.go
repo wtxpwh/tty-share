@@ -8,7 +8,7 @@ import (
 	"net"
 	"sync"
 
-	. "github.com/elisescu/tty-share/common"
+	. "../common"
 )
 
 type sessionInfo struct {

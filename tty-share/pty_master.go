@@ -8,7 +8,7 @@ import (
 	"time"
 
 	ptyDevice "github.com/elisescu/pty"
-	"golang.org/x/crypto/ssh/terminal"
+	"github.com/golang/crypto/ssh/terminal"
 )
 
 type onWindowChangesCB func(int, int)
