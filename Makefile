@@ -1,4 +1,4 @@
-DEPS=github.com/elisescu/pty github.com/sirupsen/logrus golang.org/x/crypto/ssh/terminal github.com/gorilla/mux github.com/gorilla/websocket
+DEPS=github.com/elisescu/pty github.com/sirupsen/logrus github.com/golang/crypto/ssh/terminal github.com/gorilla/mux github.com/gorilla/websocket
 DEST_DIR=./out
 TTY_SERVER=$(DEST_DIR)/tty-server
 TTY_SHARE=$(DEST_DIR)/tty-share
